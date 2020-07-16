@@ -1,0 +1,11 @@
+
+platform :ios, '13.0'
+
+target 'Sprout' do
+  use_frameworks!
+  
+  # Pods for Sprout
+  pod 'Firebase/Core'
+  
+
+end
