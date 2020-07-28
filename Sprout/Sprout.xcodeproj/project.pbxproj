@@ -13,7 +13,10 @@
 		2A51348724BF83260002A55E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A51348524BF83260002A55E /* Main.storyboard */; };
 		2A51348924BF832B0002A55E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A51348824BF832B0002A55E /* Assets.xcassets */; };
 		2A51348C24BF832B0002A55E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A51348A24BF832B0002A55E /* LaunchScreen.storyboard */; };
-		2A51349624BF93990002A55E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A51349524BF93990002A55E /* GoogleService-Info.plist */; };
+		55110CF324CFA4130093DA8B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55110CF224CFA4130093DA8B /* LoginViewController.swift */; };
+		55110CF524CFA4340093DA8B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55110CF424CFA4340093DA8B /* MapViewController.swift */; };
+		55110CF724CFA44B0093DA8B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55110CF624CFA44B0093DA8B /* ProfileViewController.swift */; };
+		55110CF924CFA4580093DA8B /* FeedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55110CF824CFA4580093DA8B /* FeedsViewController.swift */; };
 		B576DA58D1B0AD3356214E65 /* Pods_Sprout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE1AB71D5E1CF2E0A933DE4 /* Pods_Sprout.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,8 +29,11 @@
 		2A51348824BF832B0002A55E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A51348B24BF832B0002A55E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A51348D24BF832B0002A55E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A51349524BF93990002A55E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3FE1AB71D5E1CF2E0A933DE4 /* Pods_Sprout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sprout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55110CF224CFA4130093DA8B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		55110CF424CFA4340093DA8B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		55110CF624CFA44B0093DA8B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		55110CF824CFA4580093DA8B /* FeedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsViewController.swift; sourceTree = "<group>"; };
 		B46535AB6B36BF53F4F8856E /* Pods-Sprout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sprout.release.xcconfig"; path = "Target Support Files/Pods-Sprout/Pods-Sprout.release.xcconfig"; sourceTree = "<group>"; };
 		B7BDB3DC1A2F06DEF2B19781 /* Pods-Sprout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sprout.debug.xcconfig"; path = "Target Support Files/Pods-Sprout/Pods-Sprout.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +71,7 @@
 		2A51347E24BF83260002A55E /* Sprout */ = {
 			isa = PBXGroup;
 			children = (
+				55110CF024CFA38B0093DA8B /* ViewControllers */,
 				2A51347F24BF83260002A55E /* AppDelegate.swift */,
 				2A51348124BF83260002A55E /* SceneDelegate.swift */,
 				2A51348324BF83260002A55E /* ViewController.swift */,
@@ -72,9 +79,19 @@
 				2A51348824BF832B0002A55E /* Assets.xcassets */,
 				2A51348A24BF832B0002A55E /* LaunchScreen.storyboard */,
 				2A51348D24BF832B0002A55E /* Info.plist */,
-				2A51349524BF93990002A55E /* GoogleService-Info.plist */,
 			);
 			path = Sprout;
+			sourceTree = "<group>";
+		};
+		55110CF024CFA38B0093DA8B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				55110CF224CFA4130093DA8B /* LoginViewController.swift */,
+				55110CF424CFA4340093DA8B /* MapViewController.swift */,
+				55110CF624CFA44B0093DA8B /* ProfileViewController.swift */,
+				55110CF824CFA4580093DA8B /* FeedsViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		D7F10C62B9D7CB732102F6D9 /* Frameworks */ = {
@@ -155,7 +172,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A51348C24BF832B0002A55E /* LaunchScreen.storyboard in Resources */,
-				2A51349624BF93990002A55E /* GoogleService-Info.plist in Resources */,
 				2A51348924BF832B0002A55E /* Assets.xcassets in Resources */,
 				2A51348724BF83260002A55E /* Main.storyboard in Resources */,
 			);
@@ -210,8 +226,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55110CF724CFA44B0093DA8B /* ProfileViewController.swift in Sources */,
+				55110CF324CFA4130093DA8B /* LoginViewController.swift in Sources */,
+				55110CF924CFA4580093DA8B /* FeedsViewController.swift in Sources */,
 				2A51348424BF83260002A55E /* ViewController.swift in Sources */,
 				2A51348024BF83260002A55E /* AppDelegate.swift in Sources */,
+				55110CF524CFA4340093DA8B /* MapViewController.swift in Sources */,
 				2A51348224BF83260002A55E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +380,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X6C4DMJ6L5;
 				INFOPLIST_FILE = Sprout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -367,7 +388,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sanzi.Sprout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -379,6 +400,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X6C4DMJ6L5;
 				INFOPLIST_FILE = Sprout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,7 +408,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sanzi.Sprout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
