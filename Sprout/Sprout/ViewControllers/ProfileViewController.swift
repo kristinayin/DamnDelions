@@ -9,9 +9,12 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
-
+    @IBOutlet weak var imgProfilePicture: UIImageView!
+    @IBOutlet weak var lblProfileName: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        lblProfileName.text="XxBatmanXx_"
 
         // Do any additional setup after loading the view.
     }
