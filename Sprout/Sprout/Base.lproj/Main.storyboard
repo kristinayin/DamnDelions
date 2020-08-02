@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="j97-lg-NZP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="j97-lg-NZP">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -139,39 +139,41 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="PostedCells" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostedCells" rowHeight="520" id="rgg-DE-oNO" customClass="PostedPhotoTableViewCell" customModule="Sprout" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="414" height="520"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="PostedCells" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostedCells" rowHeight="535" id="rgg-DE-oNO" customClass="PostedPhotoTableViewCell" customModule="Sprout" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="535"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rgg-DE-oNO" id="bwr-UZ-Dgd">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="520"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="535"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6kq-sI-y5k">
-                                            <rect key="frame" x="0.0" y="466" width="414" height="54"/>
+                                            <rect key="frame" x="0.0" y="481" width="414" height="54"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Join us for this week Beach Cleanup" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sjt-Al-t9B">
-                                                    <rect key="frame" x="0.0" y="0.0" width="406" height="54"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Join us for this week Beach Cleanup" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sjt-Al-t9B">
+                                                    <rect key="frame" x="0.0" y="0.0" width="325" height="54"/>
+                                                    <color key="backgroundColor" red="0.792156862745098" green="1" blue="0.87058823529411766" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="406" id="1Hp-96-qgw"/>
+                                                        <constraint firstAttribute="width" constant="325" id="1Hp-96-qgw"/>
                                                         <constraint firstAttribute="height" constant="54" id="PIk-EM-nOe"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="14"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ujh-OY-prg">
                                                     <rect key="frame" x="357" y="11" width="22" height="32"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                                    <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <state key="normal" image="star" catalog="system"/>
                                                     <connections>
                                                         <action selector="likedButtonTapped:" destination="rgg-DE-oNO" eventType="touchUpInside" id="vi5-AP-Rsa"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
-                                            <color key="backgroundColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" red="0.792156862745098" green="1" blue="0.87058823529411766" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="54" id="4mD-rK-OOG"/>
-                                                <constraint firstAttribute="trailing" secondItem="Sjt-Al-t9B" secondAttribute="trailing" id="5hK-LZ-mz5"/>
+                                                <constraint firstAttribute="trailing" secondItem="Sjt-Al-t9B" secondAttribute="trailing" constant="89" id="5hK-LZ-mz5"/>
                                                 <constraint firstAttribute="bottom" secondItem="Sjt-Al-t9B" secondAttribute="bottom" id="VUN-Ph-Gk8"/>
                                                 <constraint firstItem="ujh-OY-prg" firstAttribute="centerY" secondItem="Sjt-Al-t9B" secondAttribute="centerY" id="ej1-eE-kco"/>
                                                 <constraint firstAttribute="width" constant="414" id="inB-iN-n8f"/>
@@ -180,21 +182,18 @@
                                                 <constraint firstAttribute="trailing" secondItem="ujh-OY-prg" secondAttribute="trailing" constant="35" id="zix-E2-2xA"/>
                                             </constraints>
                                         </view>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HOR-zZ-rCU">
-                                            <rect key="frame" x="0.0" y="54" width="414" height="416"/>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HOR-zZ-rCU">
+                                            <rect key="frame" x="0.0" y="40" width="414" height="445"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="414" id="dTz-kw-hcQ"/>
-                                                <constraint firstAttribute="height" constant="416" id="dj7-YN-xHt"/>
+                                                <constraint firstAttribute="height" constant="445" id="dj7-YN-xHt"/>
                                             </constraints>
                                         </imageView>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uaL-fd-vcX">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="46"/>
+                                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uaL-fd-vcX">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kNs-0C-7bs" userLabel="Profile Pic">
-                                                    <rect key="frame" x="21" y="0.0" width="91" height="46"/>
-                                                </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_userName_" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fng-SZ-0TG">
-                                                    <rect key="frame" x="153" y="8" width="150" height="30"/>
+                                                    <rect key="frame" x="151" y="18" width="150" height="30"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="150" id="7Ip-rE-qKb"/>
                                                     </constraints>
@@ -202,16 +201,19 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Batman-10" translatesAutoresizingMaskIntoConstraints="NO" id="kNs-0C-7bs" userLabel="Profile Pic">
+                                                    <rect key="frame" x="22" y="10" width="91" height="46"/>
+                                                </imageView>
                                             </subviews>
                                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                             <constraints>
-                                                <constraint firstItem="Fng-SZ-0TG" firstAttribute="leading" secondItem="uaL-fd-vcX" secondAttribute="leading" constant="153" id="8oS-WI-5EV"/>
-                                                <constraint firstItem="Fng-SZ-0TG" firstAttribute="top" secondItem="uaL-fd-vcX" secondAttribute="topMargin" id="BUr-o9-eZo"/>
-                                                <constraint firstItem="kNs-0C-7bs" firstAttribute="leading" secondItem="uaL-fd-vcX" secondAttribute="leading" constant="21" id="QZd-ai-xDd"/>
-                                                <constraint firstItem="kNs-0C-7bs" firstAttribute="top" secondItem="uaL-fd-vcX" secondAttribute="top" id="aHV-kX-JDz"/>
+                                                <constraint firstItem="Fng-SZ-0TG" firstAttribute="leading" secondItem="uaL-fd-vcX" secondAttribute="leading" constant="151" id="8oS-WI-5EV"/>
+                                                <constraint firstItem="Fng-SZ-0TG" firstAttribute="top" secondItem="uaL-fd-vcX" secondAttribute="topMargin" constant="10" id="BUr-o9-eZo"/>
+                                                <constraint firstItem="kNs-0C-7bs" firstAttribute="leading" secondItem="uaL-fd-vcX" secondAttribute="leading" constant="22" id="QZd-ai-xDd"/>
+                                                <constraint firstItem="kNs-0C-7bs" firstAttribute="top" secondItem="uaL-fd-vcX" secondAttribute="top" constant="10" id="aHV-kX-JDz"/>
                                                 <constraint firstItem="Fng-SZ-0TG" firstAttribute="centerY" secondItem="kNs-0C-7bs" secondAttribute="centerY" id="iwY-cB-P4M"/>
-                                                <constraint firstItem="Fng-SZ-0TG" firstAttribute="leading" secondItem="kNs-0C-7bs" secondAttribute="trailing" constant="41" id="jvf-Xh-zpQ"/>
-                                                <constraint firstItem="Fng-SZ-0TG" firstAttribute="bottom" secondItem="uaL-fd-vcX" secondAttribute="bottomMargin" id="mA1-v0-4vF"/>
+                                                <constraint firstItem="Fng-SZ-0TG" firstAttribute="leading" secondItem="kNs-0C-7bs" secondAttribute="trailing" constant="38" id="jvf-Xh-zpQ"/>
+                                                <constraint firstItem="Fng-SZ-0TG" firstAttribute="bottom" secondItem="uaL-fd-vcX" secondAttribute="bottomMargin" constant="-10" id="mA1-v0-4vF"/>
                                             </constraints>
                                         </view>
                                     </subviews>
@@ -221,8 +223,8 @@
                                         <constraint firstAttribute="trailing" secondItem="HOR-zZ-rCU" secondAttribute="trailing" id="6VS-cb-KrC"/>
                                         <constraint firstItem="uaL-fd-vcX" firstAttribute="top" secondItem="bwr-UZ-Dgd" secondAttribute="topMargin" constant="-11" id="Oe0-x3-8gZ"/>
                                         <constraint firstAttribute="bottom" secondItem="HOR-zZ-rCU" secondAttribute="bottom" constant="50" id="OeV-4X-fU8"/>
-                                        <constraint firstItem="HOR-zZ-rCU" firstAttribute="top" secondItem="uaL-fd-vcX" secondAttribute="bottom" constant="8" id="cdd-7u-BKX"/>
-                                        <constraint firstItem="HOR-zZ-rCU" firstAttribute="top" secondItem="bwr-UZ-Dgd" secondAttribute="top" constant="54" id="ftU-U8-Pbu"/>
+                                        <constraint firstItem="HOR-zZ-rCU" firstAttribute="top" secondItem="uaL-fd-vcX" secondAttribute="bottom" constant="-26" id="cdd-7u-BKX"/>
+                                        <constraint firstItem="HOR-zZ-rCU" firstAttribute="top" secondItem="bwr-UZ-Dgd" secondAttribute="top" constant="40" id="ftU-U8-Pbu"/>
                                         <constraint firstItem="HOR-zZ-rCU" firstAttribute="leading" secondItem="bwr-UZ-Dgd" secondAttribute="leading" id="ogD-gC-irv"/>
                                         <constraint firstAttribute="bottom" secondItem="6kq-sI-y5k" secondAttribute="bottom" id="pWF-in-kdl"/>
                                         <constraint firstItem="uaL-fd-vcX" firstAttribute="leading" secondItem="HOR-zZ-rCU" secondAttribute="leading" id="qZO-3F-TlQ"/>
@@ -249,6 +251,7 @@
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="tkR-Ac-Jir">
                                 <rect key="frame" x="370" y="11" width="24" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" image="camera" catalog="system"/>
                                 <connections>
                                     <segue destination="Omj-bP-TcZ" kind="showDetail" id="DKS-uI-YmD"/>
@@ -363,11 +366,11 @@
     <resources>
         <image name="Batman-10" width="512" height="512"/>
         <image name="background" width="1000" height="2059"/>
-        <image name="camera" catalog="system" width="64" height="48"/>
-        <image name="mappin.and.ellipse" catalog="system" width="58" height="64"/>
-        <image name="person.circle" catalog="system" width="64" height="60"/>
-        <image name="photo" catalog="system" width="64" height="46"/>
-        <image name="star" catalog="system" width="64" height="58"/>
-        <image name="xmark.rectangle.fill" catalog="system" width="64" height="46"/>
+        <image name="camera" catalog="system" width="128" height="96"/>
+        <image name="mappin.and.ellipse" catalog="system" width="118" height="128"/>
+        <image name="person.circle" catalog="system" width="128" height="121"/>
+        <image name="photo" catalog="system" width="128" height="93"/>
+        <image name="star" catalog="system" width="128" height="116"/>
+        <image name="xmark.rectangle.fill" catalog="system" width="128" height="93"/>
     </resources>
 </document>

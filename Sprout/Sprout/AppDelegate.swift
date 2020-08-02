@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // Checks what libaries are installed and initalize them
-        //FirebaseApp.configure()
+        FirebaseApp.configure()
         return true
     }
 

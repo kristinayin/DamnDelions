@@ -24,7 +24,7 @@ class NewPostViewController: UIViewController, UITextViewDelegate
     var imagePicker: UIImagePickerController!
     
     // Store the image the user pick
-    var takedImage: UIImage!
+    var takenImage: UIImage!
     
 
     override func viewDidLoad() {
@@ -55,11 +55,11 @@ class NewPostViewController: UIViewController, UITextViewDelegate
     
     @IBAction func shareThisPost(_ sender: Any) {
         // Make sure we got the caption and the image
-        if caption.text != "" && caption.text != textViewPlaceHolder && takedImage != nil
+        if caption.text != "" && caption.text != textViewPlaceHolder && takenImage != nil
         {
             // Loading Bar appears when share button is touched
             gradientLoadingBar.fadeIn()
-            let newPost = Post(image: self.takedImage, caption: self.caption.text)
+            let newPost = Post(image: self.takenImage, caption: self.caption.text)
             newPost.saveTheImage()
             print("Saved")
             
@@ -87,8 +87,8 @@ extension NewPostViewController : UIImagePickerControllerDelegate, UINavigationC
         // Get the Image
         let image = info[UIImagePickerController.InfoKey(rawValue: "UIImagePickerControllerOriginalImage")] as! UIImage
         print("Picked an Image")
-        self.takedImage = image
-        self.selectedImage.image = self.takedImage
+        self.takenImage = image
+        self.selectedImage.image = self.takenImage
         self.dismiss(animated: true, completion: nil)
         print("Reterived the Image")
             

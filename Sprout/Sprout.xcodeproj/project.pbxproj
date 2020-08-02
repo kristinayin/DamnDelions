@@ -16,6 +16,7 @@
 		2A9FE75B24D483D000AB0A42 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9FE75A24D483D000AB0A42 /* Post.swift */; };
 		2A9FE75D24D4842600AB0A42 /* FeedsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9FE75C24D4842600AB0A42 /* FeedsTableViewController.swift */; };
 		2A9FE75F24D484C400AB0A42 /* PostedPhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9FE75E24D484C400AB0A42 /* PostedPhotoTableViewCell.swift */; };
+		2AE5666E24D74B15005CC50B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AE5666D24D74B15005CC50B /* GoogleService-Info.plist */; };
 		55110CF524CFA4340093DA8B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55110CF424CFA4340093DA8B /* MapViewController.swift */; };
 		55110CF724CFA44B0093DA8B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55110CF624CFA44B0093DA8B /* ProfileViewController.swift */; };
 		AF07D85724D0B86D006415CB /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07D85624D0B86C006415CB /* Utilities.swift */; };
@@ -38,6 +39,7 @@
 		2A9FE75A24D483D000AB0A42 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Post.swift; path = Sprout/Post.swift; sourceTree = SOURCE_ROOT; };
 		2A9FE75C24D4842600AB0A42 /* FeedsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsTableViewController.swift; sourceTree = "<group>"; };
 		2A9FE75E24D484C400AB0A42 /* PostedPhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostedPhotoTableViewCell.swift; sourceTree = "<group>"; };
+		2AE5666D24D74B15005CC50B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3FE1AB71D5E1CF2E0A933DE4 /* Pods_Sprout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sprout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55110CF424CFA4340093DA8B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		55110CF624CFA44B0093DA8B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				2A51348524BF83260002A55E /* Main.storyboard */,
 				2A51348824BF832B0002A55E /* Assets.xcassets */,
 				2A51348A24BF832B0002A55E /* LaunchScreen.storyboard */,
+				2AE5666D24D74B15005CC50B /* GoogleService-Info.plist */,
 				2A51348D24BF832B0002A55E /* Info.plist */,
 				AF07D85824D0B878006415CB /* Helpers */,
 			);
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A51348C24BF832B0002A55E /* LaunchScreen.storyboard in Resources */,
+				2AE5666E24D74B15005CC50B /* GoogleService-Info.plist in Resources */,
 				2A51348924BF832B0002A55E /* Assets.xcassets in Resources */,
 				2A51348724BF83260002A55E /* Main.storyboard in Resources */,
 			);
