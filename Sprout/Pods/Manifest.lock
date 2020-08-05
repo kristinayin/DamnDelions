@@ -1,4 +1,5 @@
 PODS:
+  - FaveButton (3.2.1)
   - Firebase/Core (6.29.0):
     - Firebase/CoreOnly
     - FirebaseAnalytics (= 6.7.0)
@@ -80,6 +81,7 @@ PODS:
   - SwiftyJSON (4.3.0)
 
 DEPENDENCIES:
+  - FaveButton
   - Firebase/Core
   - Firebase/Database
   - Firebase/Storage
@@ -88,6 +90,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - FaveButton
     - Firebase
     - FirebaseAnalytics
     - FirebaseCore
@@ -107,6 +110,7 @@ SPEC REPOS:
     - SwiftyJSON
 
 SPEC CHECKSUMS:
+  FaveButton: 93cfebf6030336fa7653fad2068c3152ed668b39
   Firebase: 57957c8d6eb3d8b80a560b1dc58be24724b89ff2
   FirebaseAnalytics: aa522dce9fd93002ba1554467d23ce7092323000
   FirebaseCore: 7930a1946517d94256d857f97371ed993b55f7bd
@@ -125,6 +129,6 @@ SPEC CHECKSUMS:
   PromisesObjC: b48e0338dbbac2207e611750777895f7a5811b75
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: 1e36c75718fb9aaa78b4416fd9acd43e89ede6d3
+PODFILE CHECKSUM: 54dbe2f0ce289ea18dac96a7f3c02f54c71e72ee
 
 COCOAPODS: 1.9.3

@@ -64,12 +64,13 @@ class Post {
                         return
                     }
                     self.imageDownloadURL = url.absoluteString
+
                     print(self.imageDownloadURL)
                     
                     let newPostDictionay = [
                         "imageDownloadURL": self.imageDownloadURL,
                         "caption": self.caption
-                    ]
+                        ]
                     print("Dictionary implementation succeeded")
                     
                     newPostRef.setValue(newPostDictionay)

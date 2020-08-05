@@ -26,14 +26,8 @@ class PostedPhotoTableViewCell: UITableViewCell {
         }
     }
     
-    // When the liked button is filled
-    @IBAction func likedButtonTapped(_ sender: Any){
-        // User clicked liked Button
-        print("Liked a Button")
-        //likedButtonTapped.filled = UIColor.black.cgColor
-    }
     
-    
+
     // Function to update the tableViewCell for the posts
     func updatedTableViewCell() {
         
@@ -93,7 +87,6 @@ class PostedPhotoTableViewCell: UITableViewCell {
                 }
             }
         }
-                
     }
 
 }
