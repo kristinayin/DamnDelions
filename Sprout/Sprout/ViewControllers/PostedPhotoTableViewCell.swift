@@ -12,11 +12,20 @@ import Firebase
 class PostedPhotoTableViewCell: UITableViewCell {
     
     @IBOutlet weak var postedImage: UIImageView!
+    
     @IBOutlet weak var shadowBackgroundPostedView: UIView!
+    
     @IBOutlet weak var postedCaption: UILabel!
+    
     @IBOutlet weak var postedProfilePic: UIImageView!
+    
     @IBOutlet weak var userName: UILabel!
+    
     @IBOutlet weak var shadowBackgroundProfile: UIView!
+    
+    @IBOutlet weak var star: UIButton!
+    
+    @IBOutlet weak var numberOfLiked: UILabel!
     
     
     // Retrieve the posts
@@ -24,6 +33,18 @@ class PostedPhotoTableViewCell: UITableViewCell {
         didSet {
             self.updatedTableViewCell()
         }
+    }
+    
+    // Like Button when the user likes a post
+    @IBAction func likeButton(_ sender: Any) {
+        print("User liked the photo")
+        
+        // Change the Image for the LikeButton
+        let liked = UIImage(named: "likeButton") as UIImage?
+        star.setImage(liked, for: .normal)
+                   
+        // Change the amount of likes for the posts
+        numberOfLiked.text = "201"
     }
     
     
