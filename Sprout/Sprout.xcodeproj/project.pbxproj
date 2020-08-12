@@ -26,6 +26,7 @@
 		AF07D85E24D0B89F006415CB /* LoginInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07D85A24D0B89E006415CB /* LoginInViewController.swift */; };
 		AF07D85F24D0B89F006415CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07D85B24D0B89E006415CB /* ViewController.swift */; };
 		AF07D86024D0B89F006415CB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07D85C24D0B89F006415CB /* SignUpViewController.swift */; };
+		AF5CAF3124E47BF9000ADAE4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5CAF3024E47BF9000ADAE4 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		AF07D85A24D0B89E006415CB /* LoginInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInViewController.swift; sourceTree = "<group>"; };
 		AF07D85B24D0B89E006415CB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF07D85C24D0B89F006415CB /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AF5CAF3024E47BF9000ADAE4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EF98BFFE8E8B2ECD2D469560 /* Pods-Sprout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sprout.debug.xcconfig"; path = "Target Support Files/Pods-Sprout/Pods-Sprout.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				AF07D85624D0B86C006415CB /* Utilities.swift */,
+				AF5CAF3024E47BF9000ADAE4 /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				2A9FE75F24D484C400AB0A42 /* PostedPhotoTableViewCell.swift in Sources */,
 				2A9FE75D24D4842600AB0A42 /* FeedsTableViewController.swift in Sources */,
 				55110CF724CFA44B0093DA8B /* ProfileViewController.swift in Sources */,
+				AF5CAF3124E47BF9000ADAE4 /* Constants.swift in Sources */,
 				AF07D85E24D0B89F006415CB /* LoginInViewController.swift in Sources */,
 				2A9FE75B24D483D000AB0A42 /* Post.swift in Sources */,
 				AF07D85F24D0B89F006415CB /* ViewController.swift in Sources */,
