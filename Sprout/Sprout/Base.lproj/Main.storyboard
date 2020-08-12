@@ -238,7 +238,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="zHs-1g-okx">
                                 <rect key="frame" x="40" y="84" width="334" height="260"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t2G-dY-1D7">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t2G-dY-1D7">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -282,10 +282,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="rOn-LZ-WnP"/>
                     <connections>
+                        <outlet property="emailTextField" destination="t2G-dY-1D7" id="uyg-06-GV8"/>
                         <outlet property="errorLabel" destination="3cd-ul-2hm" id="edR-DH-br6"/>
                         <outlet property="loginButton" destination="kbV-4q-INh" id="zzD-fW-PZG"/>
                         <outlet property="passwordTextField" destination="GLu-cn-DVz" id="qFc-RV-NgW"/>
-                        <outlet property="usernameTextField" destination="t2G-dY-1D7" id="v1C-JV-sdd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kCA-li-Q0S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
