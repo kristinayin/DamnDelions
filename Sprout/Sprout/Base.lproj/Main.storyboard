@@ -442,7 +442,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="!!!! @SuperMan listen to this " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wxp-sj-uhn">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I will def join this weekend !!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wxp-sj-uhn">
                                 <rect key="frame" x="118" y="240" width="180" height="40.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40.5" id="Zbg-9e-VLQ"/>
@@ -547,7 +547,7 @@
                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="19"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yes Caption Marvel Totally Argreee!!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bEg-eg-8WA">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="what time will we be meeting?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bEg-eg-8WA">
                                 <rect key="frame" x="116" y="166" width="220.5" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="Zul-s2-U13"/>
@@ -646,14 +646,6 @@
                                                         <segue destination="dOw-yZ-53f" kind="show" id="CfE-HT-2ih"/>
                                                     </connections>
                                                 </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="g6c-e4-E25">
-                                                    <rect key="frame" x="348" y="20" width="17" height="16"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" image="unlikedButton"/>
-                                                    <connections>
-                                                        <action selector="likeButton:" destination="nAT-mO-FjJ" eventType="touchUpInside" id="2eD-tF-IB6"/>
-                                                    </connections>
-                                                </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Join us for this week Beach Cleanup" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7UH-pp-his">
                                                     <rect key="frame" x="4" y="-4" width="317" height="54"/>
                                                     <color key="backgroundColor" red="0.79215686269999996" green="1" blue="0.87058823529999996" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
@@ -666,7 +658,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPS-lV-nW3" userLabel="amountofLikes">
-                                                    <rect key="frame" x="384" y="43" width="21.5" height="18"/>
+                                                    <rect key="frame" x="368" y="41" width="21.5" height="18"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="21.5" id="MYb-ZY-ivY"/>
                                                         <constraint firstAttribute="height" constant="18" id="ksK-gD-6gP"/>
@@ -675,27 +667,35 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="g6c-e4-E25">
+                                                    <rect key="frame" x="368" y="15" width="17" height="16"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" image="unlikedButton"/>
+                                                    <connections>
+                                                        <action selector="likeButton:" destination="nAT-mO-FjJ" eventType="touchUpInside" id="2eD-tF-IB6"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <color key="backgroundColor" red="0.68627450980000004" green="0.87450980389999999" blue="0.95294117649999999" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstItem="GJ8-ak-m9A" firstAttribute="bottom" secondItem="Acu-WJ-dh8" secondAttribute="bottomMargin" constant="15" id="AUW-sI-Qfm"/>
-                                                <constraint firstItem="jPS-lV-nW3" firstAttribute="leading" secondItem="GJ8-ak-m9A" secondAttribute="trailing" constant="225" id="GXk-JL-UsW"/>
+                                                <constraint firstItem="jPS-lV-nW3" firstAttribute="leading" secondItem="GJ8-ak-m9A" secondAttribute="trailing" constant="209" id="GXk-JL-UsW"/>
                                                 <constraint firstItem="g6c-e4-E25" firstAttribute="width" secondItem="7UH-pp-his" secondAttribute="height" multiplier="17:54" id="OAj-uC-5dz"/>
                                                 <constraint firstAttribute="height" constant="59" id="PUa-YK-ae3"/>
                                                 <constraint firstAttribute="bottom" secondItem="7UH-pp-his" secondAttribute="bottom" constant="9" id="PzI-en-Bgy"/>
                                                 <constraint firstItem="GJ8-ak-m9A" firstAttribute="leading" secondItem="Acu-WJ-dh8" secondAttribute="leadingMargin" id="Rxx-Nw-SsG"/>
-                                                <constraint firstItem="jPS-lV-nW3" firstAttribute="leading" secondItem="7UH-pp-his" secondAttribute="trailing" constant="63" id="S1R-YF-uyS"/>
-                                                <constraint firstItem="jPS-lV-nW3" firstAttribute="top" secondItem="Acu-WJ-dh8" secondAttribute="top" constant="43" id="bND-vn-XrS"/>
-                                                <constraint firstItem="jPS-lV-nW3" firstAttribute="top" secondItem="g6c-e4-E25" secondAttribute="bottom" constant="7" id="bbj-rR-BWd"/>
+                                                <constraint firstItem="jPS-lV-nW3" firstAttribute="leading" secondItem="7UH-pp-his" secondAttribute="trailing" constant="47" id="S1R-YF-uyS"/>
+                                                <constraint firstItem="jPS-lV-nW3" firstAttribute="top" secondItem="Acu-WJ-dh8" secondAttribute="top" constant="41" id="bND-vn-XrS"/>
+                                                <constraint firstItem="jPS-lV-nW3" firstAttribute="top" secondItem="g6c-e4-E25" secondAttribute="bottom" constant="5" id="bbj-rR-BWd"/>
                                                 <constraint firstItem="7UH-pp-his" firstAttribute="leading" secondItem="Acu-WJ-dh8" secondAttribute="leading" constant="4" id="fXb-NO-Bfk"/>
-                                                <constraint firstAttribute="trailing" secondItem="jPS-lV-nW3" secondAttribute="trailing" constant="8.5" id="gSA-9k-gBc"/>
-                                                <constraint firstAttribute="bottom" secondItem="jPS-lV-nW3" secondAttribute="bottom" constant="-2" id="i2S-Jl-3ju"/>
+                                                <constraint firstAttribute="trailing" secondItem="jPS-lV-nW3" secondAttribute="trailing" constant="24.5" id="gSA-9k-gBc"/>
+                                                <constraint firstAttribute="bottom" secondItem="jPS-lV-nW3" secondAttribute="bottom" id="i2S-Jl-3ju"/>
                                                 <constraint firstItem="7UH-pp-his" firstAttribute="top" secondItem="Acu-WJ-dh8" secondAttribute="top" constant="-4" id="jJP-HN-sWX"/>
                                                 <constraint firstAttribute="trailing" secondItem="7UH-pp-his" secondAttribute="trailing" constant="93" id="ovF-33-w3s"/>
                                                 <constraint firstAttribute="width" constant="414" id="zdE-af-akn"/>
                                             </constraints>
                                         </view>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2wq-zW-I6j">
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2wq-zW-I6j">
                                             <rect key="frame" x="0.0" y="64" width="414" height="475"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="475" id="NjC-hE-opi"/>
