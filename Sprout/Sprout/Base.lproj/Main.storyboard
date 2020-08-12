@@ -171,7 +171,7 @@
                     <navigationItem key="navigationItem" id="7uw-zN-wQv"/>
                     <connections>
                         <outlet property="emailTextField" destination="AYw-he-6Jv" id="Hrr-EW-cdr"/>
-                        <outlet property="errorLabel" destination="XxQ-sA-fWh" id="6Jy-jy-nPv"/>
+                        <outlet property="errorLabel" destination="XxQ-sA-fWh" id="az2-8G-OHt"/>
                         <outlet property="passwordTextField" destination="TSg-bf-1ze" id="FLK-QI-9XL"/>
                         <outlet property="signUpButton" destination="ZYB-na-hub" id="wvD-GQ-R4Y"/>
                         <outlet property="usernameTextField" destination="CS5-T3-g00" id="w5i-5Y-mSH"/>
@@ -282,6 +282,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="rOn-LZ-WnP"/>
                     <connections>
+                        <outlet property="errorLabel" destination="3cd-ul-2hm" id="edR-DH-br6"/>
                         <outlet property="loginButton" destination="kbV-4q-INh" id="zzD-fW-PZG"/>
                         <outlet property="passwordTextField" destination="GLu-cn-DVz" id="qFc-RV-NgW"/>
                         <outlet property="usernameTextField" destination="t2G-dY-1D7" id="v1C-JV-sdd"/>
@@ -300,7 +301,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="a6y-fj-Csp">
-                                <rect key="frame" x="40" y="692" width="334" height="120"/>
+                                <rect key="frame" x="40" y="682" width="334" height="120"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRn-Ga-C96">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="50"/>
@@ -329,7 +330,7 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a6y-fj-Csp" secondAttribute="trailing" constant="40" id="Boh-zi-iIh"/>
                             <constraint firstItem="a6y-fj-Csp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="GaW-5w-jkf"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="a6y-fj-Csp" secondAttribute="bottom" constant="50" id="Ha5-2t-DTL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="a6y-fj-Csp" secondAttribute="bottom" constant="60" id="Ts6-Do-YO0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
