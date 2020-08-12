@@ -104,7 +104,7 @@ class SignUpViewController: UIViewController {
                     }
                     
                     // transition to home screen
-                    self.transitionToHome()
+                    self.transitionToProfile()
                 }
             }
         }
@@ -115,10 +115,10 @@ class SignUpViewController: UIViewController {
         errorLabel.alpha = 1
     }
     
-    func transitionToHome() {
-        let homeViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
+    func transitionToProfile() {
+        let profileViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.profileViewController) as? ProfileViewController
         
-        view.window?.rootViewController = homeViewController
+        view.window?.rootViewController = profileViewController
         view.window?.makeKeyAndVisible()
     }
     

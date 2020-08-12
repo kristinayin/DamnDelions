@@ -22,7 +22,6 @@
 		55110CF524CFA4340093DA8B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55110CF424CFA4340093DA8B /* MapViewController.swift */; };
 		55110CF724CFA44B0093DA8B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55110CF624CFA44B0093DA8B /* ProfileViewController.swift */; };
 		AF07D85724D0B86D006415CB /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07D85624D0B86C006415CB /* Utilities.swift */; };
-		AF07D85D24D0B89F006415CB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07D85924D0B89E006415CB /* HomeViewController.swift */; };
 		AF07D85E24D0B89F006415CB /* LoginInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07D85A24D0B89E006415CB /* LoginInViewController.swift */; };
 		AF07D85F24D0B89F006415CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07D85B24D0B89E006415CB /* ViewController.swift */; };
 		AF07D86024D0B89F006415CB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07D85C24D0B89F006415CB /* SignUpViewController.swift */; };
@@ -48,7 +47,6 @@
 		92295C8C3055CACD8A6FA326 /* Pods_Sprout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sprout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9976A491AFE0D4E92D92D972 /* Pods-Sprout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sprout.release.xcconfig"; path = "Target Support Files/Pods-Sprout/Pods-Sprout.release.xcconfig"; sourceTree = "<group>"; };
 		AF07D85624D0B86C006415CB /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		AF07D85924D0B89E006415CB /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AF07D85A24D0B89E006415CB /* LoginInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInViewController.swift; sourceTree = "<group>"; };
 		AF07D85B24D0B89E006415CB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF07D85C24D0B89F006415CB /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 				AF07D85B24D0B89E006415CB /* ViewController.swift */,
 				55110CF424CFA4340093DA8B /* MapViewController.swift */,
 				2AD5F8A024E0CE850015057C /* CommentViewController.swift */,
-				AF07D85924D0B89E006415CB /* HomeViewController.swift */,
 				2A9FE75C24D4842600AB0A42 /* FeedsTableViewController.swift */,
 				2A9FE75824D47CFC00AB0A42 /* NewPostViewController.swift */,
 				2A9FE75E24D484C400AB0A42 /* PostedPhotoTableViewCell.swift */,
@@ -273,7 +270,6 @@
 				AF07D85F24D0B89F006415CB /* ViewController.swift in Sources */,
 				AF07D86024D0B89F006415CB /* SignUpViewController.swift in Sources */,
 				2A51348024BF83260002A55E /* AppDelegate.swift in Sources */,
-				AF07D85D24D0B89F006415CB /* HomeViewController.swift in Sources */,
 				55110CF524CFA4340093DA8B /* MapViewController.swift in Sources */,
 				AF07D85724D0B86D006415CB /* Utilities.swift in Sources */,
 				2A51348224BF83260002A55E /* SceneDelegate.swift in Sources */,

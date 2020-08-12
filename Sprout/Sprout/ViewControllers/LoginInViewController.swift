@@ -72,16 +72,16 @@ class LoginInViewController: UIViewController {
                 self.errorLabel.alpha = 1
             } else {
                 // successful sign in
-                 self.transitionToHome()
+                 self.transitionToProfile()
             }
         }
         
     }
     
-    func transitionToHome() {
-        let homeViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
+    func transitionToProfile() {
+        let profileViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.profileViewController) as? ProfileViewController
         
-        view.window?.rootViewController = homeViewController
+        view.window?.rootViewController = profileViewController
         view.window?.makeKeyAndVisible()
     }
     
