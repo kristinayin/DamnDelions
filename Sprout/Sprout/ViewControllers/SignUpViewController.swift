@@ -78,7 +78,7 @@ class SignUpViewController: UIViewController {
         
         if error != nil {
             // there is something wrong with the fields, show error message
-            showError("error!")
+            showError(validateFields()!)
         } else {
             
             // create cleaned versions of the data
@@ -91,7 +91,7 @@ class SignUpViewController: UIViewController {
                 
                 if err != nil {
                     // there was an error creating the user
-                    self.showError("Error creating user")
+                    self.showError(err!.localizedDescription)
                 } else {
                     // data validated, let user store data
                     let db = Firestore.firestore()
