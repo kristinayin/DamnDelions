@@ -284,6 +284,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="rOn-LZ-WnP"/>
                     <connections>
+                        <outlet property="emailTextField" destination="t2G-dY-1D7" id="HGu-b6-bKg"/>
                         <outlet property="errorLabel" destination="3cd-ul-2hm" id="edR-DH-br6"/>
                         <outlet property="loginButton" destination="kbV-4q-INh" id="zzD-fW-PZG"/>
                         <outlet property="passwordTextField" destination="GLu-cn-DVz" id="qFc-RV-NgW"/>
@@ -324,7 +325,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="Login"/>
                                         <connections>
-                                            <segue destination="XDl-IJ-8lR" kind="show" id="3hB-6H-m6s"/>
+                                            <segue destination="XDl-IJ-8lR" kind="show" id="SYi-3J-rTd"/>
                                         </connections>
                                     </button>
                                 </subviews>
