@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="j97-lg-NZP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -140,12 +140,13 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="Qg7-az-Gss"/>
                                         </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="Sign Up"/>
                                         <connections>
                                             <action selector="signUpTapped:" destination="nbf-CI-c87" eventType="touchUpInside" id="cT1-VY-0KN"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XxQ-sA-fWh">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XxQ-sA-fWh">
                                         <rect key="frame" x="0.0" y="280" width="334" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -180,6 +181,33 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y1i-YZ-PHk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-781" y="-504"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="e7w-Li-7hd">
+            <objects>
+                <viewController id="NoV-67-vQT" customClass="HomeViewController" customModule="Sprout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xn0-PD-nN7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ssi-5s-T1T">
+                                <rect key="frame" x="139" y="427.5" width="136.5" height="41"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Ssi-5s-T1T" firstAttribute="centerX" secondItem="Xn0-PD-nN7" secondAttribute="centerX" id="c89-X8-OOA"/>
+                            <constraint firstItem="Ssi-5s-T1T" firstAttribute="centerY" secondItem="Xn0-PD-nN7" secondAttribute="centerY" id="u1A-Of-D1i"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1xf-54-ytw"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="te0-2S-GlG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-33.333333333333336" y="-137.27678571428569"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Gzi-C1-Qdp">
@@ -226,12 +254,13 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="9Vi-lm-X2S"/>
                                         </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="Login"/>
                                         <connections>
                                             <action selector="loginTapped:" destination="XDl-IJ-8lR" eventType="touchUpInside" id="mKT-rq-SJg"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3cd-ul-2hm">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3cd-ul-2hm">
                                         <rect key="frame" x="0.0" y="210" width="334" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -255,10 +284,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="rOn-LZ-WnP"/>
                     <connections>
-                        <outlet property="emailTextField" destination="t2G-dY-1D7" id="uyg-06-GV8"/>
                         <outlet property="errorLabel" destination="3cd-ul-2hm" id="edR-DH-br6"/>
                         <outlet property="loginButton" destination="kbV-4q-INh" id="zzD-fW-PZG"/>
                         <outlet property="passwordTextField" destination="GLu-cn-DVz" id="qFc-RV-NgW"/>
+                        <outlet property="usernameTextField" destination="t2G-dY-1D7" id="v1C-JV-sdd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kCA-li-Q0S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -281,6 +310,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="FaC-u1-5qr"/>
                                         </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="Sign Up"/>
                                         <connections>
                                             <segue destination="nbf-CI-c87" kind="show" id="YUs-FW-nhZ"/>
@@ -291,6 +321,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="k7B-uX-dij"/>
                                         </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="Login"/>
                                         <connections>
                                             <segue destination="XDl-IJ-8lR" kind="show" id="3hB-6H-m6s"/>
@@ -309,7 +340,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="eAZ-eL-tqy"/>
                     <connections>
-                        <outlet property="loginButton" destination="WK9-KK-ayO" id="Dty-4S-Sxy"/>
+                        <outlet property="loginButton" destination="WK9-KK-ayO" id="IVp-SO-3iv"/>
                         <outlet property="signUpButton" destination="dRn-Ga-C96" id="Uca-Es-bBc"/>
                     </connections>
                 </viewController>
