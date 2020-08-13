@@ -217,9 +217,9 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="c8v-an-bVB" kind="relationship" relationship="viewControllers" id="Ajk-Z2-iJT"/>
                         <segue destination="1w8-hT-BiX" kind="relationship" relationship="viewControllers" id="1fz-fC-kQn"/>
                         <segue destination="b1b-er-qFU" kind="relationship" relationship="viewControllers" id="kke-ud-A6u"/>
+                        <segue destination="c8v-an-bVB" kind="relationship" relationship="viewControllers" id="Ajk-Z2-iJT"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UZK-h4-bnS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -680,68 +680,6 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="609"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Acu-WJ-dh8">
-                                            <rect key="frame" x="0.0" y="539" width="414" height="59"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJ8-ak-m9A">
-                                                    <rect key="frame" x="8" y="41" width="151" height="25"/>
-                                                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="11"/>
-                                                    <state key="normal" title="View all Comments">
-                                                        <color key="titleColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    </state>
-                                                    <connections>
-                                                        <segue destination="dOw-yZ-53f" kind="show" id="CfE-HT-2ih"/>
-                                                    </connections>
-                                                </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Join us for this week Beach Cleanup" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7UH-pp-his">
-                                                    <rect key="frame" x="4" y="-4" width="317" height="54"/>
-                                                    <color key="backgroundColor" red="0.79215686269999996" green="1" blue="0.87058823529999996" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="317" id="0I2-tW-WQB"/>
-                                                        <constraint firstAttribute="height" constant="54" id="6m4-3v-eG4"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="11"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPS-lV-nW3" userLabel="amountofLikes">
-                                                    <rect key="frame" x="368" y="41" width="21.5" height="18"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="21.5" id="MYb-ZY-ivY"/>
-                                                        <constraint firstAttribute="height" constant="18" id="ksK-gD-6gP"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" name="LaoSangamMN" family="Lao Sangam MN" pointSize="13"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="g6c-e4-E25">
-                                                    <rect key="frame" x="368" y="15" width="17" height="16"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" image="unlikedButton"/>
-                                                    <connections>
-                                                        <action selector="likeButton:" destination="nAT-mO-FjJ" eventType="touchUpInside" id="2eD-tF-IB6"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <color key="backgroundColor" red="0.68627450980000004" green="0.87450980389999999" blue="0.95294117649999999" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <constraints>
-                                                <constraint firstItem="GJ8-ak-m9A" firstAttribute="bottom" secondItem="Acu-WJ-dh8" secondAttribute="bottomMargin" constant="15" id="AUW-sI-Qfm"/>
-                                                <constraint firstItem="jPS-lV-nW3" firstAttribute="leading" secondItem="GJ8-ak-m9A" secondAttribute="trailing" constant="209" id="GXk-JL-UsW"/>
-                                                <constraint firstItem="g6c-e4-E25" firstAttribute="width" secondItem="7UH-pp-his" secondAttribute="height" multiplier="17:54" id="OAj-uC-5dz"/>
-                                                <constraint firstAttribute="height" constant="59" id="PUa-YK-ae3"/>
-                                                <constraint firstAttribute="bottom" secondItem="7UH-pp-his" secondAttribute="bottom" constant="9" id="PzI-en-Bgy"/>
-                                                <constraint firstItem="GJ8-ak-m9A" firstAttribute="leading" secondItem="Acu-WJ-dh8" secondAttribute="leadingMargin" id="Rxx-Nw-SsG"/>
-                                                <constraint firstItem="jPS-lV-nW3" firstAttribute="leading" secondItem="7UH-pp-his" secondAttribute="trailing" constant="47" id="S1R-YF-uyS"/>
-                                                <constraint firstItem="jPS-lV-nW3" firstAttribute="top" secondItem="Acu-WJ-dh8" secondAttribute="top" constant="41" id="bND-vn-XrS"/>
-                                                <constraint firstItem="jPS-lV-nW3" firstAttribute="top" secondItem="g6c-e4-E25" secondAttribute="bottom" constant="5" id="bbj-rR-BWd"/>
-                                                <constraint firstItem="7UH-pp-his" firstAttribute="leading" secondItem="Acu-WJ-dh8" secondAttribute="leading" constant="4" id="fXb-NO-Bfk"/>
-                                                <constraint firstAttribute="trailing" secondItem="jPS-lV-nW3" secondAttribute="trailing" constant="24.5" id="gSA-9k-gBc"/>
-                                                <constraint firstAttribute="bottom" secondItem="jPS-lV-nW3" secondAttribute="bottom" id="i2S-Jl-3ju"/>
-                                                <constraint firstItem="7UH-pp-his" firstAttribute="top" secondItem="Acu-WJ-dh8" secondAttribute="top" constant="-4" id="jJP-HN-sWX"/>
-                                                <constraint firstAttribute="trailing" secondItem="7UH-pp-his" secondAttribute="trailing" constant="93" id="ovF-33-w3s"/>
-                                                <constraint firstAttribute="width" constant="414" id="zdE-af-akn"/>
-                                            </constraints>
-                                        </view>
                                         <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PbN-vL-wZF">
                                             <rect key="frame" x="0.0" y="11" width="414" height="56"/>
                                             <subviews>
@@ -773,6 +711,127 @@
                                                 <constraint firstAttribute="width" constant="414" id="oVI-0W-ITT"/>
                                             </constraints>
                                         </imageView>
+                                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Acu-WJ-dh8">
+                                            <rect key="frame" x="0.0" y="550" width="414" height="59"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJ8-ak-m9A">
+                                                    <rect key="frame" x="8" y="28" width="92" height="38"/>
+                                                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="11"/>
+                                                    <state key="normal" title="View all Comments">
+                                                        <color key="titleColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="dOw-yZ-53f" kind="show" id="CfE-HT-2ih"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="200" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPS-lV-nW3" userLabel="amountofLikes">
+                                                    <rect key="frame" x="368" y="41" width="21.5" height="18"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="21.5" id="MYb-ZY-ivY"/>
+                                                        <constraint firstAttribute="height" constant="18" id="ksK-gD-6gP"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="LaoSangamMN" family="Lao Sangam MN" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="g6c-e4-E25">
+                                                    <rect key="frame" x="368" y="18" width="22" height="23"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" image="unlikedButton"/>
+                                                    <connections>
+                                                        <action selector="likeButton:" destination="nAT-mO-FjJ" eventType="touchUpInside" id="2eD-tF-IB6"/>
+                                                    </connections>
+                                                </button>
+                                                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fNe-Wg-c8l">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="59"/>
+                                                    <subviews>
+                                                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gU-uZ-fdU">
+                                                            <rect key="frame" x="8" y="28" width="92" height="38"/>
+                                                            <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="11"/>
+                                                            <state key="normal" title="View all Comments">
+                                                                <color key="titleColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </state>
+                                                        </button>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="200" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cvi-7z-ZXk" userLabel="amountofLikes">
+                                                            <rect key="frame" x="368" y="41" width="21.5" height="18"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="21.5" id="6k4-r3-RgF"/>
+                                                                <constraint firstAttribute="height" constant="18" id="Khj-eR-Jip"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="LaoSangamMN" family="Lao Sangam MN" pointSize="13"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yKp-9V-43v">
+                                                            <rect key="frame" x="368" y="18" width="22" height="23"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <state key="normal" image="unlikedButton"/>
+                                                            <connections>
+                                                                <action selector="likeButton:" destination="nAT-mO-FjJ" eventType="touchUpInside" id="R0n-V1-jE6"/>
+                                                            </connections>
+                                                        </button>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Join us for this week Beach Cleanup" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCQ-M9-mwX">
+                                                            <rect key="frame" x="2" y="-6" width="317" height="70"/>
+                                                            <color key="backgroundColor" red="0.79215686269999996" green="1" blue="0.87058823529999996" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="54" id="6Q2-oc-Fcx"/>
+                                                                <constraint firstAttribute="width" constant="317" id="QTN-zT-fTq"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="18"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="0.70940320869999995" green="0.95294117649999999" blue="0.81222713150000003" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="414" id="Jcb-rx-77H"/>
+                                                        <constraint firstAttribute="height" constant="59" id="Jwl-kL-WbW"/>
+                                                        <constraint firstItem="cvi-7z-ZXk" firstAttribute="top" secondItem="fNe-Wg-c8l" secondAttribute="top" constant="41" id="QFY-QM-IDV"/>
+                                                        <constraint firstItem="cvi-7z-ZXk" firstAttribute="leading" secondItem="uCQ-M9-mwX" secondAttribute="trailing" constant="47" id="UmZ-rP-Nh0"/>
+                                                        <constraint firstItem="cvi-7z-ZXk" firstAttribute="top" secondItem="yKp-9V-43v" secondAttribute="bottom" constant="5" id="WYR-rz-c7U"/>
+                                                        <constraint firstAttribute="trailing" secondItem="cvi-7z-ZXk" secondAttribute="trailing" constant="24.5" id="YdV-bb-DNp"/>
+                                                        <constraint firstItem="9gU-uZ-fdU" firstAttribute="bottom" secondItem="fNe-Wg-c8l" secondAttribute="bottomMargin" constant="15" id="ZGi-x4-RhY"/>
+                                                        <constraint firstItem="yKp-9V-43v" firstAttribute="width" secondItem="uCQ-M9-mwX" secondAttribute="height" multiplier="17:54" id="bD0-Xa-yyt"/>
+                                                        <constraint firstAttribute="bottom" secondItem="uCQ-M9-mwX" secondAttribute="bottom" constant="-5" id="bjZ-Hg-Cwv"/>
+                                                        <constraint firstAttribute="trailing" secondItem="uCQ-M9-mwX" secondAttribute="trailing" constant="95" id="kav-ua-iCm"/>
+                                                        <constraint firstItem="9gU-uZ-fdU" firstAttribute="leading" secondItem="fNe-Wg-c8l" secondAttribute="leadingMargin" id="kgw-rO-9Gk"/>
+                                                        <constraint firstItem="cvi-7z-ZXk" firstAttribute="leading" secondItem="9gU-uZ-fdU" secondAttribute="trailing" constant="209" id="l9B-4Z-NWn"/>
+                                                        <constraint firstItem="uCQ-M9-mwX" firstAttribute="leading" secondItem="fNe-Wg-c8l" secondAttribute="leading" constant="2" id="m5b-uf-BXP"/>
+                                                        <constraint firstAttribute="bottom" secondItem="cvi-7z-ZXk" secondAttribute="bottom" id="nCH-ha-CvM"/>
+                                                        <constraint firstItem="uCQ-M9-mwX" firstAttribute="top" secondItem="fNe-Wg-c8l" secondAttribute="top" constant="-6" id="yK5-ju-uO4"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Join us for this week Beach Cleanup" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7UH-pp-his">
+                                                    <rect key="frame" x="2" y="-6" width="317" height="70"/>
+                                                    <color key="backgroundColor" red="0.79215686269999996" green="1" blue="0.87058823529999996" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="317" id="0I2-tW-WQB"/>
+                                                        <constraint firstAttribute="height" constant="54" id="6m4-3v-eG4"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="18"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.70940320867080164" green="0.95294117649999999" blue="0.81222713150389669" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <constraints>
+                                                <constraint firstItem="7UH-pp-his" firstAttribute="top" secondItem="Acu-WJ-dh8" secondAttribute="top" constant="-6" id="1Ez-fo-VNl"/>
+                                                <constraint firstAttribute="bottom" secondItem="7UH-pp-his" secondAttribute="bottom" constant="-5" id="9uG-vo-mrN"/>
+                                                <constraint firstItem="GJ8-ak-m9A" firstAttribute="bottom" secondItem="Acu-WJ-dh8" secondAttribute="bottomMargin" constant="15" id="AUW-sI-Qfm"/>
+                                                <constraint firstItem="jPS-lV-nW3" firstAttribute="leading" secondItem="GJ8-ak-m9A" secondAttribute="trailing" constant="209" id="GXk-JL-UsW"/>
+                                                <constraint firstItem="g6c-e4-E25" firstAttribute="width" secondItem="7UH-pp-his" secondAttribute="height" multiplier="17:54" id="L3h-q2-kX8"/>
+                                                <constraint firstAttribute="height" constant="59" id="PUa-YK-ae3"/>
+                                                <constraint firstItem="GJ8-ak-m9A" firstAttribute="leading" secondItem="Acu-WJ-dh8" secondAttribute="leadingMargin" id="Rxx-Nw-SsG"/>
+                                                <constraint firstAttribute="trailing" secondItem="7UH-pp-his" secondAttribute="trailing" constant="95" id="aJu-jl-kMb"/>
+                                                <constraint firstItem="jPS-lV-nW3" firstAttribute="top" secondItem="Acu-WJ-dh8" secondAttribute="top" constant="41" id="bND-vn-XrS"/>
+                                                <constraint firstItem="jPS-lV-nW3" firstAttribute="top" secondItem="g6c-e4-E25" secondAttribute="bottom" constant="5" id="bbj-rR-BWd"/>
+                                                <constraint firstItem="jPS-lV-nW3" firstAttribute="leading" secondItem="7UH-pp-his" secondAttribute="trailing" constant="47" id="fwD-My-RVv"/>
+                                                <constraint firstAttribute="trailing" secondItem="jPS-lV-nW3" secondAttribute="trailing" constant="24.5" id="gSA-9k-gBc"/>
+                                                <constraint firstAttribute="bottom" secondItem="jPS-lV-nW3" secondAttribute="bottom" id="i2S-Jl-3ju"/>
+                                                <constraint firstItem="7UH-pp-his" firstAttribute="leading" secondItem="Acu-WJ-dh8" secondAttribute="leading" constant="2" id="qUz-fY-a18"/>
+                                                <constraint firstAttribute="width" constant="414" id="zdE-af-akn"/>
+                                            </constraints>
+                                        </view>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="Acu-WJ-dh8" firstAttribute="leading" secondItem="es9-4E-UwY" secondAttribute="leading" id="8cW-tA-P5v"/>
@@ -1323,6 +1382,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Batman-10" width="512" height="512"/>
         <image name="Garbage1" width="591" height="332"/>
         <image name="Garbage2" width="413" height="399"/>
         <image name="Garbage3" width="1024" height="615"/>
