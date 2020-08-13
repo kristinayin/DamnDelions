@@ -26,7 +26,7 @@
 		AF07D85F24D0B89F006415CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07D85B24D0B89E006415CB /* ViewController.swift */; };
 		AF07D86024D0B89F006415CB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07D85C24D0B89F006415CB /* SignUpViewController.swift */; };
 		AF5CAF3124E47BF9000ADAE4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5CAF3024E47BF9000ADAE4 /* Constants.swift */; };
-		AF5CAF3624E4B1FB000ADAE4 /* loginbg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AF5CAF3524E4B1FB000ADAE4 /* loginbg.mp4 */; };
+		AFD1C02924E538FF002242E5 /* loginbg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AFD1C02824E538FF002242E5 /* loginbg.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,7 +52,7 @@
 		AF07D85B24D0B89E006415CB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF07D85C24D0B89F006415CB /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		AF5CAF3024E47BF9000ADAE4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		AF5CAF3524E4B1FB000ADAE4 /* loginbg.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = loginbg.mp4; path = ../../../../loginbg.mp4; sourceTree = "<group>"; };
+		AFD1C02824E538FF002242E5 /* loginbg.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = loginbg.mp4; sourceTree = "<group>"; };
 		EF98BFFE8E8B2ECD2D469560 /* Pods-Sprout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sprout.debug.xcconfig"; path = "Target Support Files/Pods-Sprout/Pods-Sprout.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +91,7 @@
 			children = (
 				AF5CAF3224E48EA1000ADAE4 /* Media */,
 				170CEEDD24DF67DF00B598A5 /* GoogleService-Info.plist */,
+				AFD1C02824E538FF002242E5 /* loginbg.mp4 */,
 				55110CF024CFA38B0093DA8B /* ViewControllers */,
 				2A51347F24BF83260002A55E /* AppDelegate.swift */,
 				2A51348124BF83260002A55E /* SceneDelegate.swift */,
@@ -132,7 +133,6 @@
 		AF5CAF3224E48EA1000ADAE4 /* Media */ = {
 			isa = PBXGroup;
 			children = (
-				AF5CAF3524E4B1FB000ADAE4 /* loginbg.mp4 */,
 			);
 			path = Media;
 			sourceTree = "<group>";
@@ -215,7 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A51348C24BF832B0002A55E /* LaunchScreen.storyboard in Resources */,
-				AF5CAF3624E4B1FB000ADAE4 /* loginbg.mp4 in Resources */,
+				AFD1C02924E538FF002242E5 /* loginbg.mp4 in Resources */,
 				170CEEDE24DF67DF00B598A5 /* GoogleService-Info.plist in Resources */,
 				2A51348924BF832B0002A55E /* Assets.xcassets in Resources */,
 				2A51348724BF83260002A55E /* Main.storyboard in Resources */,

@@ -160,11 +160,17 @@
                                     <constraint firstItem="TSg-bf-1ze" firstAttribute="height" secondItem="CS5-T3-g00" secondAttribute="height" id="uba-u7-pyK"/>
                                 </constraints>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="SproutLong" translatesAutoresizingMaskIntoConstraints="NO" id="9pC-Z5-W27">
+                                <rect key="frame" x="28" y="141" width="358" height="1055"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="9pC-Z5-W27" firstAttribute="leading" secondItem="hCt-hg-0UW" secondAttribute="leading" constant="28" id="2U4-fJ-Fq3"/>
                             <constraint firstItem="UTV-FA-2hc" firstAttribute="top" secondItem="hCt-hg-0UW" secondAttribute="top" constant="40" id="2xZ-I3-3Pl"/>
+                            <constraint firstItem="hCt-hg-0UW" firstAttribute="trailing" secondItem="9pC-Z5-W27" secondAttribute="trailing" constant="28" id="AA2-Yh-Xe0"/>
                             <constraint firstItem="hCt-hg-0UW" firstAttribute="trailing" secondItem="UTV-FA-2hc" secondAttribute="trailing" constant="40" id="PYg-ol-bgA"/>
+                            <constraint firstAttribute="bottom" secondItem="9pC-Z5-W27" secondAttribute="bottom" constant="-300" id="gYR-fD-9fU"/>
                             <constraint firstItem="UTV-FA-2hc" firstAttribute="leading" secondItem="hCt-hg-0UW" secondAttribute="leading" constant="40" id="z9b-Zx-FqY"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hCt-hg-0UW"/>
@@ -273,12 +279,18 @@
                                     <constraint firstItem="GLu-cn-DVz" firstAttribute="height" secondItem="t2G-dY-1D7" secondAttribute="height" id="nHH-xC-hdf"/>
                                 </constraints>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="SproutLong" translatesAutoresizingMaskIntoConstraints="NO" id="7iQ-Ra-8Ek">
+                                <rect key="frame" x="28" y="141" width="358" height="1055"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="zHs-1g-okx" firstAttribute="leading" secondItem="7bA-WU-Zep" secondAttribute="leading" constant="40" id="51i-YC-6k8"/>
+                            <constraint firstItem="7iQ-Ra-8Ek" firstAttribute="leading" secondItem="7bA-WU-Zep" secondAttribute="leading" constant="28" id="5PQ-tb-Oh8"/>
                             <constraint firstItem="zHs-1g-okx" firstAttribute="top" secondItem="7bA-WU-Zep" secondAttribute="top" constant="40" id="7r2-8v-O0v"/>
+                            <constraint firstAttribute="bottom" secondItem="7iQ-Ra-8Ek" secondAttribute="bottom" constant="-300" id="HVN-oX-bia"/>
                             <constraint firstItem="7bA-WU-Zep" firstAttribute="trailing" secondItem="zHs-1g-okx" secondAttribute="trailing" constant="40" id="h1C-hY-Fyx"/>
+                            <constraint firstItem="7bA-WU-Zep" firstAttribute="trailing" secondItem="7iQ-Ra-8Ek" secondAttribute="trailing" constant="28" id="rWo-gv-a1B"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7bA-WU-Zep"/>
                     </view>
@@ -292,7 +304,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kCA-li-Q0S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-781" y="261"/>
+            <point key="canvasLocation" x="-781.15942028985512" y="260.49107142857144"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -329,11 +341,17 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Sprout" translatesAutoresizingMaskIntoConstraints="NO" id="Lfc-up-AWS">
+                                <rect key="frame" x="40" y="-150" width="334" height="649"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Lfc-up-AWS" secondAttribute="trailing" constant="40" id="0q3-8a-yhO"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a6y-fj-Csp" secondAttribute="trailing" constant="40" id="Boh-zi-iIh"/>
                             <constraint firstItem="a6y-fj-Csp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="GaW-5w-jkf"/>
+                            <constraint firstItem="Lfc-up-AWS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-150" id="IwO-30-4rl"/>
+                            <constraint firstItem="Lfc-up-AWS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="T0E-p9-YH3"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="a6y-fj-Csp" secondAttribute="bottom" constant="60" id="Ts6-Do-YO0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -346,7 +364,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1771" y="-137"/>
+            <point key="canvasLocation" x="-1771.0144927536232" y="-137.27678571428569"/>
         </scene>
         <!--Naviagation Feed-->
         <scene sceneID="aoD-4C-Gpg">
@@ -838,6 +856,8 @@
         <image name="Garbage6" width="780" height="520"/>
         <image name="Garbage7" width="236" height="231"/>
         <image name="Garbage8" width="300" height="350"/>
+        <image name="Sprout" width="2006" height="649"/>
+        <image name="SproutLong" width="751" height="1055"/>
         <image name="Storm" width="48" height="48"/>
         <image name="WonderWomen" width="512" height="512"/>
         <image name="background" width="1000" height="2059"/>
