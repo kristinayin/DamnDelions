@@ -23,6 +23,9 @@ class SignUpViewController: UIViewController {
     
     @IBOutlet weak var errorLabel: UILabel!
     
+    @IBAction func goBack(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -87,7 +90,7 @@ class SignUpViewController: UIViewController {
             let email = emailTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             
             // create the user
-            Auth.auth().createUser(withEmail: "", password: "") { (result, err) in
+            Auth.auth().createUser(withEmail: email, password: password) { (result, err) in
                 
                 if err != nil {
                     // there was an error creating the user
@@ -116,9 +119,9 @@ class SignUpViewController: UIViewController {
     }
     
     func transitionToProfile() {
-        let profileViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.profileViewController) as? ProfileViewController
+        let tabViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.HomeTabControllerID) as? UITabBarController
         
-        view.window?.rootViewController = profileViewController
+        view.window?.rootViewController = tabViewController
         view.window?.makeKeyAndVisible()
     }
     
