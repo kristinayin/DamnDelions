@@ -1323,6 +1323,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Batman-10" width="512" height="512"/>
         <image name="Garbage1" width="591" height="332"/>
         <image name="Garbage2" width="413" height="399"/>
         <image name="Garbage3" width="1024" height="615"/>
