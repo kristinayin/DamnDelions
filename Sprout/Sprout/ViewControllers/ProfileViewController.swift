@@ -9,7 +9,9 @@
 import UIKit
 import XLPagerTabStrip
 
+
 class ProfileViewController: ButtonBarPagerTabStripViewController{
+
     @IBOutlet weak var imgProfilePicture: UIImageView!
     @IBOutlet weak var lblProfileName: UILabel!
     let greenColor = UIColor(red:0.13, green:0.73, blue:0.25, alpha:1.0)
@@ -40,7 +42,7 @@ class ProfileViewController: ButtonBarPagerTabStripViewController{
     override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
        let points = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "PointsViewControllerID")
        let badges = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "BadgesViewControllerID")
-       let posts = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "PostsViewControllerID")
+       let posts = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ProfilePostsViewControllerID")
         let friends = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "FriendsViewControllerID")
        return [points, badges, posts, friends ]
        }
