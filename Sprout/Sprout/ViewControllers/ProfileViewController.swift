@@ -9,6 +9,7 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
+    
     @IBOutlet weak var imgProfilePicture: UIImageView!
     @IBOutlet weak var lblProfileName: UILabel!
     
