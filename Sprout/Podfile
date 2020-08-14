@@ -11,6 +11,7 @@ target 'Sprout' do
   pod 'Firebase/Firestore'
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
+  pod 'XLPagerTabStrip', '~> 9.0'
   
   # For loading
   pod 'GradientLoadingBar' , '~> 2.0'

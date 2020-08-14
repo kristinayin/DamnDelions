@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		0006FB34F6EF88E456C82F6A /* Pods_Sprout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92295C8C3055CACD8A6FA326 /* Pods_Sprout.framework */; };
 		170CEEDE24DF67DF00B598A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 170CEEDD24DF67DF00B598A5 /* GoogleService-Info.plist */; };
+		17E3818524E72A460032569F /* BadgesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E3818424E72A460032569F /* BadgesViewController.swift */; };
+		17E3818724E72A7E0032569F /* ProfilePostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E3818624E72A7E0032569F /* ProfilePostsViewController.swift */; };
+		17E3818924E72A940032569F /* PointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E3818824E72A940032569F /* PointsViewController.swift */; };
+		17E3818B24E72AAF0032569F /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E3818A24E72AAF0032569F /* FriendsViewController.swift */; };
 		2A51348024BF83260002A55E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A51347F24BF83260002A55E /* AppDelegate.swift */; };
 		2A51348224BF83260002A55E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A51348124BF83260002A55E /* SceneDelegate.swift */; };
 		2A51348724BF83260002A55E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A51348524BF83260002A55E /* Main.storyboard */; };
@@ -31,6 +35,10 @@
 
 /* Begin PBXFileReference section */
 		170CEEDD24DF67DF00B598A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		17E3818424E72A460032569F /* BadgesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesViewController.swift; sourceTree = "<group>"; };
+		17E3818624E72A7E0032569F /* ProfilePostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePostsViewController.swift; sourceTree = "<group>"; };
+		17E3818824E72A940032569F /* PointsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsViewController.swift; sourceTree = "<group>"; };
+		17E3818A24E72AAF0032569F /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		2A51347C24BF83260002A55E /* Sprout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sprout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A51347F24BF83260002A55E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A51348124BF83260002A55E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +76,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17E3818324E729F50032569F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				17E3818424E72A460032569F /* BadgesViewController.swift */,
+				17E3818624E72A7E0032569F /* ProfilePostsViewController.swift */,
+				17E3818824E72A940032569F /* PointsViewController.swift */,
+				17E3818A24E72AAF0032569F /* FriendsViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		2A51347324BF83260002A55E = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +125,7 @@
 		55110CF024CFA38B0093DA8B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				17E3818324E729F50032569F /* Profile */,
 				AF07D85C24D0B89F006415CB /* SignUpViewController.swift */,
 				AF07D85A24D0B89E006415CB /* LoginInViewController.swift */,
 				AF07D85B24D0B89E006415CB /* ViewController.swift */,
@@ -165,7 +185,7 @@
 				2A51347824BF83260002A55E /* Sources */,
 				2A51347924BF83260002A55E /* Frameworks */,
 				2A51347A24BF83260002A55E /* Resources */,
-				B2108C673019923929C14795 /* [CP] Embed Pods Frameworks */,
+				E359BA0812D47943565A1D4A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,7 +267,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B2108C673019923929C14795 /* [CP] Embed Pods Frameworks */ = {
+		E359BA0812D47943565A1D4A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -275,9 +295,13 @@
 				2A9FE75924D47CFC00AB0A42 /* NewPostViewController.swift in Sources */,
 				2A9FE75F24D484C400AB0A42 /* PostedPhotoTableViewCell.swift in Sources */,
 				2A9FE75D24D4842600AB0A42 /* FeedsTableViewController.swift in Sources */,
+				17E3818524E72A460032569F /* BadgesViewController.swift in Sources */,
 				55110CF724CFA44B0093DA8B /* ProfileViewController.swift in Sources */,
+				17E3818924E72A940032569F /* PointsViewController.swift in Sources */,
 				AF5CAF3124E47BF9000ADAE4 /* Constants.swift in Sources */,
 				AF07D85E24D0B89F006415CB /* LoginInViewController.swift in Sources */,
+				17E3818724E72A7E0032569F /* ProfilePostsViewController.swift in Sources */,
+				17E3818B24E72AAF0032569F /* FriendsViewController.swift in Sources */,
 				2A9FE75B24D483D000AB0A42 /* Post.swift in Sources */,
 				AF07D85F24D0B89F006415CB /* ViewController.swift in Sources */,
 				AF07D86024D0B89F006415CB /* SignUpViewController.swift in Sources */,
