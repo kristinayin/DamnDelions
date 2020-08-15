@@ -19,14 +19,10 @@ class PointsViewController: UIViewController, IndicatorInfoProvider {
         
     @IBOutlet weak var checkBox4: UIButton!
         
-    @IBOutlet weak var checkBox5: UIButton!
-        
     @IBOutlet weak var treeIcon: UIImageView!
         
     var treeImages: [UIImage] = []
         
-    let levels = "Sapling"
-            
     @IBOutlet weak var currentPoints: UILabel!
         
     @IBOutlet weak var currentLevel: UILabel!
@@ -83,26 +79,14 @@ class PointsViewController: UIViewController, IndicatorInfoProvider {
         numberOfPoints.text = "20"
     }
         
-
     @IBAction func checkedBox4(_ sender: Any) {
-        
-        print("User donated")
-                  
-        // Change the Image for the checkBox
-        let completedTheTasks = UIImage(named: "checked") as UIImage?
-                  
-        checkBox4.setImage(completedTheTasks, for: .normal)
-
-    }
-
-    @IBAction func checkedBox5(_ sender: Any) {
         
         print("User attened event")
                   
         // Change the Image for the checkBox
         let completedTheTasks = UIImage(named: "checked") as UIImage?
                   
-        checkBox5.setImage(completedTheTasks, for: .normal)
+        checkBox4.setImage(completedTheTasks, for: .normal)
             
         numberOfPoints.text = "0"
         
@@ -116,23 +100,28 @@ class PointsViewController: UIViewController, IndicatorInfoProvider {
         
         if numberOfPoints.text == "0" {
             
-            let role = "Sprout"
-            let nextLevelPoints = "You are currently 100 points away from being a Sprout"
+            let nextLevelPoints = "You need         points to advance to Sprout"
+            let level = "Sapling"
+            let currentAmountOfPoints = "You are currently a   with 237 points"
             
-            currentLevel.text = role
+            // Change of text for the first label
+            currentLevel.text = level
             currentLevel.textColor = UIColor.init(red: 76/255, green: 153/255, blue: 0/255, alpha: 1)
-            currentPoints.text = "You are currently a with 237 points"
+            currentPoints.text = currentAmountOfPoints
             
+            // Change of text for the second label
+            points.text = nextLevelPoints
+            numberOfPoints.text = "100"
+            
+            // Animation for the tree
             treeIcon.image = UIImage(named: "tree-0")
             treeIcon.alpha = 0
             treeIcon.image = UIImage(named: "tree-1")
             treeIcon.alpha = 1
             
-            points.text = nextLevelPoints
-                
         }
         
-        }
+    }
     
    func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
        return IndicatorInfo(title: "Points")
