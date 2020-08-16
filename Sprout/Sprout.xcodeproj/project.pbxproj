@@ -79,7 +79,9 @@
 		17E3818324E729F50032569F /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				55110CF624CFA44B0093DA8B /* ProfileViewController.swift */,
 				17E3818424E72A460032569F /* BadgesViewController.swift */,
+				2AFF01EF24E5DA71000287CC /* PointsViewController.swift */,
 				17E3818624E72A7E0032569F /* ProfilePostsViewController.swift */,
 				17E3818A24E72AAF0032569F /* FriendsViewController.swift */,
 			);
@@ -129,13 +131,11 @@
 				AF07D85A24D0B89E006415CB /* LoginInViewController.swift */,
 				AF07D85B24D0B89E006415CB /* ViewController.swift */,
 				55110CF424CFA4340093DA8B /* MapViewController.swift */,
-				2AFF01EF24E5DA71000287CC /* PointsViewController.swift */,
 				2AD5F8A024E0CE850015057C /* CommentViewController.swift */,
 				2A9FE75C24D4842600AB0A42 /* FeedsTableViewController.swift */,
 				2A9FE75824D47CFC00AB0A42 /* NewPostViewController.swift */,
 				2A9FE75E24D484C400AB0A42 /* PostedPhotoTableViewCell.swift */,
 				2A9FE75A24D483D000AB0A42 /* Post.swift */,
-				55110CF624CFA44B0093DA8B /* ProfileViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";

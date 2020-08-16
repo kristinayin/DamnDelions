@@ -82,7 +82,7 @@ class LoginInViewController: UIViewController {
     }
     
     func transitionToProfile() {
-        let profileViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.profileViewController) as? ProfileViewController
+        let profileViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.HomeTabControllerID) as? UITabBarController
         
         view.window?.rootViewController = profileViewController
         view.window?.makeKeyAndVisible()
