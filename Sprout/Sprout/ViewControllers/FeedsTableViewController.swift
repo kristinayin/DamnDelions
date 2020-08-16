@@ -34,6 +34,8 @@ class FeedsTableViewController: UITableViewController {
             }
         }
         
+        tabBarController?.tabBar.tintColor = .green
+        
 
     }
 

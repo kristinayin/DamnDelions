@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Map-->
+        <!--Map View Controller-->
         <scene sceneID="Clk-Cb-kiy">
             <objects>
                 <viewController id="b1b-er-qFU" customClass="MapViewController" customModule="Sprout" customModuleProvider="target" sceneMemberID="viewController">
@@ -29,7 +29,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="FEN-em-tsJ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" image="mappin.and.ellipse" catalog="system" id="iQr-yG-wCE"/>
+                    <tabBarItem key="tabBarItem" title="" image="Map25" id="iQr-yG-wCE"/>
                     <connections>
                         <outlet property="mapView" destination="UoX-DY-1fZ" id="QQG-19-n2F"/>
                     </connections>
@@ -38,7 +38,7 @@
             </objects>
             <point key="canvasLocation" x="2358" y="-1230"/>
         </scene>
-        <!--Profile-->
+        <!--Profile View Controller-->
         <scene sceneID="OzD-2J-YrY">
             <objects>
                 <viewController storyboardIdentifier="ProfileVC" id="c8v-an-bVB" customClass="ProfileViewController" customModule="Sprout" customModuleProvider="target" sceneMemberID="viewController">
@@ -100,7 +100,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="UHc-87-mJd"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Profile" image="person.circle" catalog="system" id="ZU2-GE-eag"/>
+                    <tabBarItem key="tabBarItem" title="" image="Profile25" id="ZU2-GE-eag"/>
                     <connections>
                         <outlet property="buttonBarView" destination="TPC-Wg-YYm" id="nlB-wP-ecP"/>
                         <outlet property="containerView" destination="pLM-rX-UaJ" id="jR8-uA-cuU"/>
@@ -209,8 +209,8 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="1w8-hT-BiX" kind="relationship" relationship="viewControllers" id="1fz-fC-kQn"/>
                         <segue destination="b1b-er-qFU" kind="relationship" relationship="viewControllers" id="kke-ud-A6u"/>
+                        <segue destination="1w8-hT-BiX" kind="relationship" relationship="viewControllers" id="1fz-fC-kQn"/>
                         <segue destination="c8v-an-bVB" kind="relationship" relationship="viewControllers" id="Ajk-Z2-iJT"/>
                     </connections>
                 </tabBarController>
@@ -384,7 +384,7 @@
         <scene sceneID="aoD-4C-Gpg">
             <objects>
                 <navigationController title="Naviagation Feed" automaticallyAdjustsScrollViewInsets="NO" id="1w8-hT-BiX" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Feeds" image="photo" catalog="system" id="4Qg-Ds-O5n"/>
+                    <tabBarItem key="tabBarItem" title="" image="Feed25Color" id="4Qg-Ds-O5n"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lPw-Gv-YaE">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -1335,6 +1335,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Feed25Color" width="25" height="25"/>
         <image name="Garbage1" width="591" height="332"/>
         <image name="Garbage2" width="413" height="399"/>
         <image name="Garbage3" width="1024" height="615"/>
@@ -1343,6 +1344,8 @@
         <image name="Garbage6" width="780" height="520"/>
         <image name="Garbage7" width="236" height="231"/>
         <image name="Garbage8" width="300" height="350"/>
+        <image name="Map25" width="25" height="25"/>
+        <image name="Profile25" width="25" height="25"/>
         <image name="Sprout" width="2006" height="649"/>
         <image name="SproutLong" width="751" height="1055"/>
         <image name="background" width="1000" height="2059"/>
@@ -1355,9 +1358,6 @@
         <image name="badge8" width="512" height="512"/>
         <image name="badge9" width="512" height="512"/>
         <image name="camera" catalog="system" width="128" height="96"/>
-        <image name="mappin.and.ellipse" catalog="system" width="118" height="128"/>
-        <image name="person.circle" catalog="system" width="128" height="121"/>
-        <image name="photo" catalog="system" width="128" height="93"/>
         <image name="placeHolderImage" width="600" height="450"/>
         <image name="superhero-batman-dark-knight-asian" width="128" height="128"/>
         <image name="superhero-black-panther-comics" width="128" height="128"/>
@@ -1367,7 +1367,7 @@
         <image name="tree-0" width="893" height="1329"/>
         <image name="tree-1" width="1030" height="1819"/>
         <image name="unchecked" width="50" height="50"/>
-        <image name="unlikedButton" width="50" height="50"/>
+        <image name="unlikedButton" width="523" height="497"/>
         <image name="xmark.rectangle.fill" catalog="system" width="128" height="93"/>
     </resources>
 </document>

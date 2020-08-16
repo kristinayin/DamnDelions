@@ -34,7 +34,8 @@ class ProfileViewController: ButtonBarPagerTabStripViewController{
              oldCell?.label.textColor = .black
              newCell?.label.textColor = self?.greenColor
              }
-       
+        
+        tabBarController?.tabBar.tintColor = .green
         // Do any additional setup after loading the view.
     }
     
